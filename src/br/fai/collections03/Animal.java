@@ -8,7 +8,7 @@ public abstract class Animal {
 	}
 	
 	public void dizerMeuNome() {
-		System.out.println("O nome do animal e: xxx");
+		System.out.println("O nome do animal e: " +getNome());
 	}
 	
 	private void dizerMinhaIdade() {
